@@ -21,8 +21,7 @@ function MovieCard({ movie }) {
 
       <div className="movie-info">
         <h3>{movie.title}</h3>
-        <p>{movie.release_date?.split("-")[0]}</p>
-        {/* Above is to isolate the year from the full date */}
+        <p>{movie.release_date?.split("-")[0]}</p>{" "}
       </div>
     </div>
   );
