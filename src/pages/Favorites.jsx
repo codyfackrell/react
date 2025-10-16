@@ -1,5 +1,6 @@
 import "../css/Favorites.css";
 
+// to add context to this component
 function Favorites() {
   return (
     <div className="favorites-empty">
