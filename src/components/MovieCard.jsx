@@ -11,7 +11,7 @@ function MovieCard({ movie }) {
     if (favorite) {
       removeFromFavorites(movie.id);
     } else {
-      addToFavorites(movie.id);
+      addToFavorites(movie);
     }
   }
 
